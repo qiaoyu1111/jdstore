@@ -18,13 +18,13 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active">
-          <%= link_to("Products", products_path) %>
+          <%= link_to("products", products_path) %>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
           <%= link_to carts_path do  %>
-            Cart <i class="fa fa-shopping-cart"> </i> ( <%= current_cart.products.count %> )
+            <%= t("cart") %> <i class="fa fa-shopping-cart"> </i> ( <%= current_cart.products.count %> )
           <% end %>
         </li>
 

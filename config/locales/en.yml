@@ -21,3 +21,11 @@
 
 en:
   hello: "Hello world"
+  product_list: Product_list
+  quantity: Quantity
+  add: "ADD to CART"
+  empty: "Sale Empty"
+  products: Product
+  cart: Cart
+  admin:
+    product_list: Admin Product List
