@@ -5,5 +5,7 @@
   empty: 已销售一空，无法购买
   products: 产品列表
   cart: 购物车
+  sale_time: 上架时间
+  sale_price: 售价
   admin:
     product_list: 活动列表管理

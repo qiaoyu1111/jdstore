@@ -27,5 +27,7 @@ en:
   empty: "Sale Empty"
   products: Product
   cart: Cart
+  sale_time: SaleTime
+  sale_price: Price
   admin:
     product_list: Admin Product List
