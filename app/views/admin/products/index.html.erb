@@ -32,10 +32,13 @@
         </td>
         <td>
           <%= product.price %>
+          <br><br><hr><br>
+          <%= product.created_at %>
         </td>
         <td>
+
           <%= link_to("Edit", edit_admin_product_path(product)) %>
-          <%= link_to("Delete", admin_product_path(product),    
+          <%= link_to("Delete", admin_product_path(product),
                           method: :delete, data: { confirm: "Are you sure?" } )%>
         </td>
       </tr>
